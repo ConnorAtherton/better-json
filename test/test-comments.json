@@ -1,0 +1,26 @@
+{
+  "bitnami-default-user": "root",
+  "bitnami-key": "mongodb",
+  "bitnami-name": "MongoDB",
+  "bitnami-version": "2.6.5-0",
+  "bitnami-url": "//wiki.bitnami.com/Applications/Bitnami_MongoDB",
+  "bitnami-description": "MongoDB is a scalable, high-performance, open source NoSQL database written in C++.",
+  "bitnami-default-ports": [
+    [
+      27017,
+      "tcp"
+    ]
+  ],
+  "bitnami-icon-url": "//bitnami.com/assets/stacks/mongodb/img/mongodb-gcp.png",
+  "bitnami-required-memory": 512,
+  "bitnami-image-id": "gs://bitnami-images/mongodb/bitnami-mongodb-2.6.5-0-r04-linux-debian-7-x86_64.image.tar.gz",
+  "bitnami-raw-disk-url": "http://storage.googleapis.com/bitnami-images/mongodb/bitnami-mongodb-2.6.5-0-r04-linux-debian-7-x86_64.image.tar.gz",
+  "bitnami-public-image-name": "bitnami-mongodb-2-6-5-0-r04-linux-debian-7-x86-64",
+  "gcp-monitoring-enabled": true,
+  "gcp-monitoring-plugins": [
+    "mongodb"
+  ],
+  "bitnami-categories": [
+    "Database"
+  ]
+}
